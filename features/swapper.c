@@ -1,6 +1,8 @@
 #include "swapper.h"
 
 // Source: https://github.com/callum-oakley/qmk_firmware/blob/master/users/callum/swapper.c
+//
+// Modified to allow shift while swapping. ~mikker
 void update_swapper(
     bool *active,
     uint16_t cmdish,
@@ -21,8 +23,10 @@ void update_swapper(
             // Don't unregister cmdish until some other key is hit or released.
         }
     } else if (*active) {
-        unregister_code(cmdish);
-        *active = false;
+        if (keycode != KC_LSFT && keycode != KC_RSFT) {
+            unregister_code(cmdish);
+            *active = false;
+        }
     }
 }
 
