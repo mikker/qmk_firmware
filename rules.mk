@@ -13,6 +13,7 @@ CAPS_WORD_ENABLE = yes
 # RGB (underglow) lighting for Liatris
 RGBLIGHT_ENABLE = no
 RGB_MATRIX_ENABLE = yes
+RGBLIGHT_SLEEP = yes
 # WS2812_DRIVER = vendor
 
 # Enable combos
