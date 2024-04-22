@@ -65,14 +65,14 @@
       "KC_ENT",
       "ANY(DM_REC1)",
       "ANY(DM_PLY1)",
-      "KC_MRWD",
-      "KC_MFFD",
+      "LGUI(KC_C)",
+      "LGUI(KC_V)",
       "KC_MPLY",
       "CW_TOGG",
       "ANY(SELWORD)",
       "SGUI(KC_LBRC)",
       "SGUI(KC_RBRC)",
-      "OSM(MOD_HYPR)",
+      "KC_F12",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -94,7 +94,7 @@
       "KC_EQL",
       "KC_UNDS",
       "KC_AT",
-      "KC_TILD",
+      "KC_PIPE",
       "ANY(OS_SHFT)",
       "ANY(OS_CMD)",
       "ANY(OS_ALT)",
@@ -104,7 +104,7 @@
       "KC_DQUO",
       "KC_QUOT",
       "ANY(UPDIR)",
-      "KC_PIPE",
+      "KC_TILD",
       "KC_LCBR",
       "KC_LPRN",
       "KC_RPRN",
@@ -151,5 +151,5 @@
       "KC_TRNS"
     ]
   ],
-  "author": ""
+  "author": "mikker"
 }

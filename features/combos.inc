@@ -20,11 +20,8 @@ Example: ACTN(rgb_tog, rgb_matrix_toggle(), KC_Z, KC_X)
 // SSTR(vi_save,  ":q!",    KC_Q,    KC_F)
 
 // Simple keycodes
-//   name      result           chord keys
-// COMB(O_SHIFT,  OSM(MOD_LSFT),   KC_SPC, KC_BSPC)
-// COMB(IDX_ESC,  KC_ESC,          KC_D, KC_H)
-
-COMB(CMD_SPC,   LGUI(KC_SPC), KC_G,   KC_H)
-COMB(RING_ESC,  KC_ESC,       KC_S,   KC_L)
-COMB(THUMB_RET, KC_ENT,       KC_SPC, KC_LSFT)
+// name,          result,       chord,  keys
+COMB(CMD_SPC,     LGUI(KC_SPC), KC_G,   KC_H)
+COMB(POINTER_ESC, KC_ESC,       KC_F,   KC_J)
+COMB(THUMB_CTRL,  KC_F12,       KC_SPC, KC_LSFT)
 
